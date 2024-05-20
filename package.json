@@ -1,6 +1,6 @@
 {
   "name": "vue-quick-toastify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "main": "dist/quick-toastify.common.js",
   "files": ["dist/*", ".js", ".json"],

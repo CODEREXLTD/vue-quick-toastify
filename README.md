@@ -22,7 +22,7 @@ Import the QuickToastify component and use it in your application. The component
 <template>
     <button @click="isShowToastify = true">Click To show Quick Toastify</button>
     <QuickToastify 
-        :isShow="isShowToaster"
+        :isShow="isShowToastify"
         :close="hideToastify"
         :notificationType="'success'"
         :message="'Welcome to Quick Toastify☺'"
@@ -39,7 +39,7 @@ Import the QuickToastify component and use it in your application. The component
         },
         data(){
             return{
-                isShowToastify=false
+                isShowToastify: false
             }
         },
         methods:{
